@@ -27,12 +27,12 @@ void odom_controller::upd_deadwheel_vertical(float angle_traversed_rad) {
 }
 
 void odom_controller::upd_pose() {
-	position_heading.x = deadwheels[HORIZONTAL]->dx - delta_theta * deadwheels[HORIZONTAL]->dist_from_axis;
-	position_heading.y = deadwheels[VERTICAL]->dx - delta_theta * deadwheels[VERTICAL]->dist_from_axis;
+	position_heading.x = deadwheels[HORIZONTAL]->dx * deadwheels[HORIZONTAL]->radius - delta_theta * deadwheels[HORIZONTAL]->dist_from_axis;
+	position_heading.y = deadwheels[VERTICAL]->dx * deadwheels[HORIZONTAL]->radius - delta_theta * deadwheels[VERTICAL]->dist_from_axis;
 }
 
 void odom_controller::upd_cycle(float deadwheel_x[2], float new_heading) {
-	upd_deadwheel_horizontal(deadwheel_x[HORIZONTAL]-deadwheels[HORIZONTAL]->x); upd_deadwheel_vertical(deadwheel_x[VERTICAL] - deadwheels[VERTICAL]->x);
+	upd_deadwheel_horizontal(deadwheel_x[HORIZONTAL] - deadwheels[HORIZONTAL]->x); upd_deadwheel_vertical(deadwheel_x[VERTICAL] - deadwheels[VERTICAL]->x);
 	upd_heading(new_heading);
 	upd_pose();
 }
