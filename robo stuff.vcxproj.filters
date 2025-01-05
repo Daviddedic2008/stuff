@@ -24,12 +24,21 @@
     <ClCompile Include="odomFuncs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="chassis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pidController.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="odomFuncs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chassis.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globaldefs.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

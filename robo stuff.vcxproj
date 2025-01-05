@@ -127,11 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chassis.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="odomFuncs.cpp" />
     <ClCompile Include="pidController.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="chassis.h" />
+    <ClInclude Include="globaldefs.h" />
     <ClInclude Include="odomFuncs.h" />
     <ClInclude Include="pidController.h" />
   </ItemGroup>

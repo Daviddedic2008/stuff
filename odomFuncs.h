@@ -1,5 +1,6 @@
 #pragma once
 #include <cstring>
+#include "globaldefs.h"
 
 typedef struct {
 	float radius;
@@ -7,10 +8,6 @@ typedef struct {
 	bool horizontal, vertical;
 	float dx, x;
 }deadwheel;
-
-typedef struct {
-	float x, y, heading;
-}pose;
 
 deadwheel* init_deadwheel(float radius, float dist);
 
@@ -21,7 +18,7 @@ class odom_controller {
 
 		void add_deadwheel(float dist, float radius, char* tag);
 
-		deadwheel* deadwheels[2];
+		deadwheel* deadwheels[2] = {nullptr, nullptr};
 
 		float delta_theta;
 		pose position_heading;

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|solutionrelative:odomFuncs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\chassis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|solutionrelative:chassis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|solutionrelative:odomFuncs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\chassis.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|solutionrelative:chassis.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\pidController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,8 +19,20 @@
       "RelativeMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|solutionrelative:pidController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|solutionrelative:odomFuncs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\globaldefs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|solutionrelative:globaldefs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A54F420-FC08-4771-8626-2647E4EE1967}|robo stuff.vcxproj|solutionrelative:odomFuncs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +50,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "odomFuncs.h",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.h",
-              "RelativeDocumentMoniker": "odomFuncs.h",
-              "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.h",
-              "RelativeToolTip": "odomFuncs.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "globaldefs.h",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\globaldefs.h",
+              "RelativeDocumentMoniker": "globaldefs.h",
+              "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\globaldefs.h",
+              "RelativeToolTip": "globaldefs.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T17:29:21.766Z",
+              "WhenOpened": "2025-01-05T02:21:40.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chassis.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\chassis.cpp",
+              "RelativeDocumentMoniker": "chassis.cpp",
+              "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\chassis.cpp",
+              "RelativeToolTip": "chassis.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-05T02:16:51.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "odomFuncs.cpp",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.cpp",
-              "RelativeDocumentMoniker": "odomFuncs.cpp",
-              "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.cpp",
-              "RelativeToolTip": "odomFuncs.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T17:29:13.067Z",
+              "Title": "chassis.h",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\chassis.h",
+              "RelativeDocumentMoniker": "chassis.h",
+              "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\chassis.h",
+              "RelativeToolTip": "chassis.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-05T02:16:00.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "pidController.cpp",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\pidController.cpp",
-              "RelativeDocumentMoniker": "pidController.cpp",
-              "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\pidController.cpp",
-              "RelativeToolTip": "pidController.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T02:55:17.606Z",
+              "WhenOpened": "2024-12-06T20:18:20.132Z",
               "EditorCaption": ""
             },
             {
@@ -83,21 +108,49 @@
               "RelativeDocumentMoniker": "pidController.h",
               "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\pidController.h",
               "RelativeToolTip": "pidController.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T02:53:06.943Z"
+              "WhenOpened": "2024-12-07T02:53:06.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "pidController.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\pidController.cpp",
+              "RelativeDocumentMoniker": "pidController.cpp",
+              "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\pidController.cpp",
+              "RelativeToolTip": "pidController.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T02:55:17.606Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Title": "odomFuncs.cpp",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.cpp",
+              "RelativeDocumentMoniker": "odomFuncs.cpp",
+              "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.cpp",
+              "RelativeToolTip": "odomFuncs.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T20:18:20.132Z"
+              "WhenOpened": "2024-12-07T17:29:13.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "odomFuncs.h",
+              "DocumentMoniker": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.h",
+              "RelativeDocumentMoniker": "odomFuncs.h",
+              "ToolTip": "C:\\Users\\david\\OneDrive\\Documents\\robo stuff\\odomFuncs.h",
+              "RelativeToolTip": "odomFuncs.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T17:29:21.766Z",
+              "EditorCaption": ""
             }
           ]
         }

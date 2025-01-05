@@ -17,11 +17,13 @@ void odom_controller::upd_heading(float nh) {
 }
 
 void odom_controller::upd_deadwheel_horizontal(float angle_traversed_rad) {
+	if (deadwheels[HORIZONTAL] == nullptr) { return; }
 	deadwheels[HORIZONTAL]->x += angle_traversed_rad;
 	deadwheels[HORIZONTAL]->dx = angle_traversed_rad;
 }
 
 void odom_controller::upd_deadwheel_vertical(float angle_traversed_rad) {
+	if (deadwheels[VERTICAL] == nullptr) { return; }
 	deadwheels[VERTICAL]->x += angle_traversed_rad;
 	deadwheels[VERTICAL]->dx = angle_traversed_rad;
 }
